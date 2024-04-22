@@ -5,7 +5,7 @@ using UnityEngine;
 namespace CardGame.Interfaces{
     public interface IGame{
         IDealer Dealer{get;}
-        void StartGame();
+        bool GameEnded{get;}
         void StartRound();
         void playRound();
         void ShowWinner();
