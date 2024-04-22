@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-enum CardValuesEnum{
+namespace CardGame.Enumerators{
+public enum CardValuesEnum{
     one = 1, //Ace
     two,
     three,
@@ -17,4 +18,6 @@ enum CardValuesEnum{
     queen,
     king,
     fourteen //Ace again
+}
+
 }
