@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace CardGame.Enumerators{
 public enum CardValuesEnum{
-    one = 1, //Ace
     two,
     three,
     four,
@@ -17,7 +16,7 @@ public enum CardValuesEnum{
     jack,
     queen,
     king,
-    fourteen //Ace again
+    ace
 }
 
 }

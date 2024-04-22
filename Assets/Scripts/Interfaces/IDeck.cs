@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace CardGame.Interfaces{
     public interface IDeck{
+        void FillDeck();
         void ShuffleDeck();
         ICard SeeCard(int cardIndex);
         ICard TakeCard(int cardIndex);
