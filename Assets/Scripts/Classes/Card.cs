@@ -5,7 +5,7 @@ using CardGame.Interfaces;
 using Unity.VisualScripting;
 using UnityEngine;
 
-namespace CargGame.Classes{
+namespace CardGame.Classes{
 public class Card : MonoBehaviour, ICard
 {
     private CardFiguresEnum figure;

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace CardGame.Interfaces{
-    public interface Deck{
+    public interface IDeck{
         void ShuffleDeck();
         ICard SeeCard(int cardIndex);
         ICard TakeCard(int cardIndex);
         void InsertCard(ICard card);
-        void InsertCard(List<ICard> cards);
+        void InsertCards(List<ICard> cards);
     }
 }
