@@ -6,7 +6,6 @@ namespace CardGame.Interfaces{
     public interface IGame{
         IDealer Dealer{get;}
         bool GameEnded{get;}
-        void StartGame();
         void StartRound();
         void playRound();
         void ShowWinner();

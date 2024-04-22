@@ -11,12 +11,14 @@ public class Game : MonoBehaviour, IGame
     // Start is called before the first frame update
     void Start()
     {
-        
+        Deck deck = new Deck();
+        deck.FillDeck();
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Initialize the deck
         
     }
 
@@ -32,14 +34,6 @@ public class Game : MonoBehaviour, IGame
     public void ShowWinner()
     {
         throw new System.NotImplementedException();
-    }
-
-    public void StartGame()
-    {
-        //Initialize the deck
-        Deck deck = new Deck();
-        deck.FillDeck();
-       
     }
 
     public void StartRound()
