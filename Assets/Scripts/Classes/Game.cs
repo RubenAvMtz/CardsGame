@@ -11,6 +11,7 @@ public class Game : MonoBehaviour, IGame
     // Start is called before the first frame update
     void Start()
     {
+        //Initialize the deck
         Deck deck = new Deck();
         deck.FillDeck();
     }
@@ -18,7 +19,7 @@ public class Game : MonoBehaviour, IGame
     // Update is called once per frame
     void Update()
     {
-        //Initialize the deck
+        
         
     }
 
@@ -26,7 +27,7 @@ public class Game : MonoBehaviour, IGame
 
     public bool GameEnded => throw new System.NotImplementedException();
 
-    public void playRound()
+    public void PlayRound()
     {
         throw new System.NotImplementedException();
     }
