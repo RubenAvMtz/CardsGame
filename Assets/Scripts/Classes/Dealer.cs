@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using CardGame.Interfaces;
 using UnityEngine;
 
-public class Dealer : MonoBehaviour
+public class Dealer : MonoBehaviour,IDealer
 {
-    // Start is called before the first frame update
-    void Start()
+    public void CollectCards(List<ICard> cards)
     {
-        
+        throw new System.NotImplementedException();
     }
 
-    // Update is called once per frame
-    void Update()
+    public List<ICard> DealCards(int numberOfCards)
     {
-        
+        throw new System.NotImplementedException();
+    }
+
+    public void ShuffleDeck()
+    {
+        throw new System.NotImplementedException();
     }
 }
