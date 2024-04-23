@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using CardGame.Classes;
 using CardGame.Interfaces;
 using UnityEngine;
+using UnityEngine.XR;
 
 public class Player : MonoBehaviour, IPlayer
 {
+    
     public void GetCards(List<ICard> cards)
     {
         throw new System.NotImplementedException();

@@ -7,13 +7,20 @@ using UnityEngine;
 
 public class Game : MonoBehaviour, IGame
 {
-
+    private Deck deck;
+    private Player player;
+    private Dealer dealer;
     // Start is called before the first frame update
     void Start()
     {
-        //Initialize the deck
-        Deck deck = new Deck();
+        // Initialize the deck
+        deck = new Deck();
         deck.FillDeck();
+
+        // Initialize player and dealer
+        player = new Player();
+        dealer = new Dealer();
+
     }
 
     // Update is called once per frame
